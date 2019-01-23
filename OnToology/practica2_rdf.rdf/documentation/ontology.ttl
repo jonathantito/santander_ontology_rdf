@@ -1,0 +1,293 @@
+@prefix : <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2> .
+
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#alta
+:alta rdf:type owl:ObjectProperty ;
+      rdfs:subPropertyOf :fecha ,
+                         :propiedadBaja .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#altaPad
+:altaPad rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf :fecha ,
+                            :propiedadBaja .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha
+:fecha rdf:type owl:ObjectProperty ;
+       rdfs:range :Fecha ,
+                  :ParteFecha .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fechaCreacion
+:fechaCreacion rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :fecha ,
+                                  :propiedadPais .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fechaEscision
+:fechaEscision rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :fecha ,
+                                  :propiedadPais .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivo
+:motivo rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :propiedadBaja ;
+        rdfs:range :MotivoBaja .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nacionalidad
+:nacionalidad rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :propiedadPersona ;
+              rdfs:range :Pais .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nivelEstudios
+:nivelEstudios rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :propiedadPersona ;
+               rdfs:range :NivelEstudio .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDestino
+:paisDestino rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :propiedadPersona ;
+             rdfs:range :Pais .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisNacimiento
+:paisNacimiento rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :propiedadPersona ;
+                rdfs:range :Pais .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisProcedencia
+:paisProcedencia rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :propiedadPersona ;
+                 rdfs:range :Pais .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#partOf
+:partOf rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaVinculada
+:personaVinculada rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :propiedadBaja ;
+                  rdfs:range :Persona .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadBaja
+:propiedadBaja rdf:type owl:ObjectProperty ;
+               rdfs:domain :Baja .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPais
+:propiedadPais rdf:type owl:ObjectProperty ;
+               rdfs:domain :Pais .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona
+:propiedadPersona rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Persona .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaNacimiento
+:provinciaNacimiento rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf :propiedadPersona ;
+                     rdfs:range :Provincia .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciadestino
+:provinciadestino rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :propiedadPersona ;
+                  rdfs:range :Provincia .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoMB
+:codigoMB rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :motivoDataProperty ;
+          rdfs:range xsd:unsignedInt .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoNE
+:codigoNE rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :estudiosDataProperty ;
+          rdfs:range xsd:unsignedInt .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoPostal
+:codigoPostal rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :personaDataProperty ;
+              rdfs:range xsd:unsignedInt .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#descripcionMB
+:descripcionMB rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf :motivoDataProperty ;
+               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#edad
+:edad rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf :personaDataProperty ;
+      rdfs:range xsd:unsignedInt .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#estudiosDataProperty
+:estudiosDataProperty rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain :NivelEstudio .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#identifier
+:identifier rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#modified
+:modified rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivoDataProperty
+:motivoDataProperty rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :MotivoBaja .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nivelNE
+:nivelNE rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf :estudiosDataProperty ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nombreP
+:nombreP rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf :paisDataProperty ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nombrePr
+:nombrePr rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :provinciaDataProperty ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDataProperty
+:paisDataProperty rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Pais .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#parteFechaDataProperty
+:parteFechaDataProperty rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf owl:topDataProperty ;
+                        rdfs:domain :ParteFecha ;
+                        rdfs:range xsd:unsignedInt .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty
+:personaDataProperty rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty ;
+                     rdfs:domain :Persona .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaDataProperty
+:provinciaDataProperty rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf owl:topDataProperty ;
+                       rdfs:domain :Provincia .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#sexo
+:sexo rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf :personaDataProperty ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#titulacion
+:titulacion rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf :personaDataProperty ;
+            rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Año
+:Año rdf:type owl:Class ;
+     rdfs:subClassOf :ParteFecha .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Baja
+:Baja rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Dia
+:Dia rdf:type owl:Class ;
+     rdfs:subClassOf :ParteFecha .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Fecha
+:Fecha rdf:type owl:Class ;
+       rdfs:comment "Debería heredar de Time" .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Lugar
+:Lugar rdf:type owl:Class ;
+       rdfs:comment "Debería heredar de Place" .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Mes
+:Mes rdf:type owl:Class ;
+     rdfs:subClassOf :ParteFecha .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#MotivoBaja
+:MotivoBaja rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#NivelEstudio
+:NivelEstudio rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais
+:Pais rdf:type owl:Class ;
+      rdfs:subClassOf :Lugar .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha
+:ParteFecha rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Persona
+:Persona rdf:type owl:Class ;
+         rdfs:comment "Debería heredar de FOAF" .
+
+
+###  http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia
+:Provincia rdf:type owl:Class ;
+           rdfs:subClassOf :Lugar ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :partOf ;
+                             owl:someValuesFrom :Pais
+                           ] .
+
+
+###  Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

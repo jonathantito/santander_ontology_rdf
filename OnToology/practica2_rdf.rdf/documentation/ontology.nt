@@ -1,0 +1,251 @@
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#alta
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#alta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#alta> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#alta> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadBaja> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#altaPad
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#altaPad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#altaPad> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#altaPad> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadBaja> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Fecha> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fechaCreacion
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fechaCreacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fechaCreacion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fechaCreacion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPais> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fechaEscision
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fechaEscision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fechaEscision> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fechaEscision> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPais> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivo
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadBaja> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#MotivoBaja> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nacionalidad
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nacionalidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nacionalidad> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nacionalidad> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nivelEstudios
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nivelEstudios> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nivelEstudios> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nivelEstudios> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#NivelEstudio> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDestino
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDestino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDestino> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDestino> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisNacimiento
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisNacimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisNacimiento> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisNacimiento> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisProcedencia
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisProcedencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisProcedencia> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisProcedencia> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#partOf
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#partOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaVinculada
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaVinculada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaVinculada> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadBaja> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaVinculada> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Persona> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadBaja
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadBaja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadBaja> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Baja> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPais
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPais> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPais> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Persona> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaNacimiento
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaNacimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaNacimiento> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaNacimiento> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciadestino
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciadestino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciadestino> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciadestino> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoMB
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoMB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoMB> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivoDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoMB> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#unsignedInt> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoNE
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoNE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoNE> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#estudiosDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoNE> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#unsignedInt> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoPostal
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoPostal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoPostal> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoPostal> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#unsignedInt> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#descripcionMB
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#descripcionMB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#descripcionMB> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivoDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#descripcionMB> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#edad
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#edad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#edad> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#edad> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#unsignedInt> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#estudiosDataProperty
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#estudiosDataProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#estudiosDataProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#estudiosDataProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#NivelEstudio> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#identifier
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#identifier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#modified
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#modified> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivoDataProperty
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivoDataProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivoDataProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivoDataProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#MotivoBaja> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nivelNE
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nivelNE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nivelNE> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#estudiosDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nivelNE> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nombreP
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nombreP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nombreP> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nombreP> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nombrePr
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nombrePr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nombrePr> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nombrePr> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDataProperty
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDataProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDataProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDataProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#parteFechaDataProperty
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#parteFechaDataProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#parteFechaDataProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#parteFechaDataProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#parteFechaDataProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#unsignedInt> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Persona> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaDataProperty
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaDataProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaDataProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaDataProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#sexo
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#sexo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#sexo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#sexo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#titulacion
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#titulacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#titulacion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#titulacion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Año
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#A\u00F1o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#A\u00F1o> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Baja
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Baja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Dia
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Dia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Dia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Fecha
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Fecha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Fecha> <http://www.w3.org/2000/01/rdf-schema#comment> "Debería heredar de Time" .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Lugar
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Lugar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Lugar> <http://www.w3.org/2000/01/rdf-schema#comment> "Debería heredar de Place" .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Mes
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Mes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Mes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#MotivoBaja
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#MotivoBaja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#NivelEstudio
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#NivelEstudio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Lugar> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Persona
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Persona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Persona> <http://www.w3.org/2000/01/rdf-schema#comment> "Debería heredar de FOAF" .
+# 
+# http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Lugar> .
+<http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#partOf> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

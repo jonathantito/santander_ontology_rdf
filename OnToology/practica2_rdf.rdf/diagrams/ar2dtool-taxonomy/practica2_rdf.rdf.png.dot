@@ -1,0 +1,11 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Lugar" "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#A?o" "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia" "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Dia" "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha" "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais" "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Mes" ; /*classes style*/
+	"http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Mes" -> "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais" -> "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Lugar" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia" -> "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Lugar" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Dia" -> "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#A?o" -> "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha" [ label = "rdfs:subClassOf" ];
+
+}
