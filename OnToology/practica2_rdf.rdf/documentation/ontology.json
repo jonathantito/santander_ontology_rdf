@@ -1,0 +1,376 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#partOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Año",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Baja",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Dia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Fecha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Debería heredar de Time"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Lugar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Debería heredar de Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Mes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#MotivoBaja",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#NivelEstudio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Lugar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Persona",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Debería heredar de FOAF"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Lugar"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#alta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha"
+  }, {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadBaja"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#altaPad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha"
+  }, {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadBaja"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoMB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#unsignedInt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivoDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoNE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#unsignedInt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#estudiosDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#codigoPostal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#unsignedInt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#descripcionMB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivoDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#edad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#unsignedInt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#estudiosDataProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#NivelEstudio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Fecha"
+  }, {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fechaCreacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha"
+  }, {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPais"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fechaEscision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#fecha"
+  }, {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPais"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#MotivoBaja"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadBaja"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#motivoDataProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#MotivoBaja"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nacionalidad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nivelEstudios",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#NivelEstudio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nivelNE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#estudiosDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nombreP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#nombrePr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDataProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisDestino",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisNacimiento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#paisProcedencia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#partOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#parteFechaDataProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#ParteFecha"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#unsignedInt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Persona"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaVinculada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Persona"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadBaja"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadBaja",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Baja"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPais",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Pais"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Persona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaDataProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciaNacimiento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#provinciadestino",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#Provincia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#propiedadPersona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#sexo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#titulacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/paris/ontologies/2019/0/ontologyPractica2#personaDataProperty"
+  } ]
+} ]
